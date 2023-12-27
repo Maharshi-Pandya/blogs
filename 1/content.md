@@ -44,9 +44,7 @@ condensing all this information into a matrix composed of high-dimensional token
 
 for example, a token representing the word "cat" will be encoded as a vector in some *n-dimensional space*.
 
-$$
-cat \space => [v_1,\space v_2,\space v_3,\space ...,\space v_{n}]
-$$
+$$ cat \space => [v_1,\space v_2,\space v_3,\space ...,\space v_{n}] $$
 
 
 > semantic information? positional information? ahhh, i don't understand
