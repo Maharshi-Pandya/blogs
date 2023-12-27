@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "attention mechanisms: an informal approach"
+latex: true
 ---
 
 # attention mechanisms: an informal approach
