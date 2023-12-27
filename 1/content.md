@@ -1,3 +1,8 @@
+---
+layout: post
+title: "attention mechanisms: an informal approach"
+---
+
 # attention mechanisms: an informal approach
 
 ![what the hell does even mean?](../assets/1/image.png)
