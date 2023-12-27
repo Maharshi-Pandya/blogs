@@ -43,10 +43,11 @@ these vector "representations" capture a lot of information about the input word
 
 condensing all this information into a matrix composed of high-dimensional token vectors is what the encoder does.
 
-for example, a token representing the word "cat" will be encoded as a vector in some *n-dimensional space*.
+for example, a token representing the word "cat" will be encoded as a vector in some *n-dimensional space*:
 
-$$ cat \space => [v_1,\space v_2,\space v_3,\space ...,\space v_{n}] $$
-
+<div style="text-align: center">
+<img src="https://latex.codecogs.com/svg.image?\large&space;\text{cat}\to[v_1,\space&space;v_2,\space...,\space&space;v_n]"  title="\text{cat}\to[v_1,\space v_2,\space...,\space v_n]" />
+</div>
 
 > semantic information? positional information? ahhh, i don't understand
 
