@@ -50,7 +50,8 @@ for example, a token representing the word "cat" will be encoded as
 <img src="https://latex.codecogs.com/svg.image?\large&space;\text{cat}\to[v_1,\space&space;v_2,\space...,\space&space;v_n]"  title="\text{cat}\to[v_1,\space v_2,\space...,\space v_n]" />
 </div>
 
-a vector in some *n-dimensional space*:
+a vector in some *n-dimensional space*
+
 <br>
 
 > semantic information? positional information? ahhh, i don't understand
@@ -75,11 +76,15 @@ essentially,
 
 - an encoder calculates **self-attention** while,
 - a decoder calculates **masked self-attention** and then **encoder-decoder attention**
+
 <br>
+
 > bruh, what are those words surrounding attention?
 
 i know, i know you are lost and honestly i was too but self-attention, masked self-attention, and encoder-decoder attention are **attention mechanisms** which we will go through today.
+
 <br>
+
 for simplicity just know that the encoder provides the decoder with some embeddings, and decoder _uses_ those embeddings (along with its own embeddings) to generate an output token, one at a time.
 
 
@@ -110,13 +115,16 @@ _insert manim of attention between two sentences and same sentence_
 
 
 after this, the initial vector representations of the tokens are transformed into final vector representations based on the **usefulness score**, hoping that it captures the usefulness information i.e. which tokens to "attend" to and which tokens are more "useful".
+
 <br>
+
 > can i use a "word" instead of a "token" in order to think in a simple manner?
 
 yes for simplicity you can think of a token as a word but in more general sense, a word can/cannot be made up of two or more tokens for example:
 
 - `cat -> cat` (word is itself a token)
 - `don't -> don + ' + t` (word is composed of several tokens)
+
 <br>
 
 ### self-attention and encoder-decoder attention
