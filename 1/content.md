@@ -63,7 +63,6 @@ hey don't worry...
 
 here i'm shamelessly skipping the fine-details of how the plain-text words are converted into these vector "embeddings" that capture the semantic (1st point) and positional (2nd point) information, since our focus is mainly on attention today. [Word embeddings](https://en.wikipedia.org/wiki/Word_embedding) can be a whole topic in itself. But, for now, imagine using magic we convert words into some vector "embeddings".
 
-_insert manim of word + positional embeddings_
 
 ### decoder's role
 
@@ -133,11 +132,8 @@ using the above intuition of the usefulness score of tokens, we can think about 
 
 - in self-attention, the usefulness scores are calculated between the tokens of one sentence (representations), and the tokens of the SAME sentence (same representations).
 
-_insert manim of same sentence attention_
-
 - in encoder-decoder attention, the usefulness scores are calculated between the encoder representations, and the decoder representations i.e. the sentences will be different here.
 
-_insert manim of different sentence attention_
 
 # queries, keys, and values
 
@@ -420,7 +416,7 @@ finally, the figure below visualizes what multi-head attention does:
 
 okay... that was a lot to take but hopefully now you have some intuition behind the concept of attention mechanisms in transformers which powers the large language models (LLMs) like ChatGPT.
 
-do note that, there can be several forms of attention which might provide "better" results such as [sliding window attention](https://paperswithcode.com/method/sliding-window-attention), but my intention behind this blog post was to approach the concept of transformers attention is a very informal yet intuitive manner.
+do note that, there can be several forms of attention which might provide "better" results such as [sliding window attention](https://paperswithcode.com/method/sliding-window-attention), but my intention behind this blog post was to approach the concept of transformers attention in a very informal yet intuitive manner.
 
 thank you for reading this anon, see you very soon!
 
